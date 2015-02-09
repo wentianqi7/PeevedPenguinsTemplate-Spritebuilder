@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00719C9D1A87ED5400BFB3C5 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 00719C9C1A87ED5400BFB3C5 /* Seal.m */; };
+		00719CA61A87ED6500BFB3C5 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 00719CA51A87ED6500BFB3C5 /* Penguin.m */; };
+		00719CA91A87F86B00BFB3C5 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 00719CA81A87F86B00BFB3C5 /* Gameplay.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -39,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		00719CA21A87ED5400BFB3C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BF3267A195F8D8800D9A51A;
+			remoteInfo = cocos2dJava;
+		};
 		B737894A180761A90076A88C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
@@ -70,6 +80,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00719C9B1A87ED5400BFB3C5 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
+		00719C9C1A87ED5400BFB3C5 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
+		00719CA41A87ED6500BFB3C5 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Penguin.h; path = Source/Penguin.h; sourceTree = "<group>"; };
+		00719CA51A87ED6500BFB3C5 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Penguin.m; path = Source/Penguin.m; sourceTree = "<group>"; };
+		00719CA71A87F86B00BFB3C5 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
+		00719CA81A87F86B00BFB3C5 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -143,6 +159,12 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				00719C9B1A87ED5400BFB3C5 /* Seal.h */,
+				00719C9C1A87ED5400BFB3C5 /* Seal.m */,
+				00719CA41A87ED6500BFB3C5 /* Penguin.h */,
+				00719CA51A87ED6500BFB3C5 /* Penguin.m */,
+				00719CA71A87F86B00BFB3C5 /* Gameplay.h */,
+				00719CA81A87F86B00BFB3C5 /* Gameplay.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -152,6 +174,7 @@
 			children = (
 				B737894B180761A90076A88C /* libcocos2d.a */,
 				BC2B43A51A77597000F945C3 /* libcocos2dAndroid.a */,
+				00719CA31A87ED5400BFB3C5 /* cocos2dJava.jar */,
 				BC2B43A71A77597000F945C3 /* libcocos2d-mac.a */,
 			);
 			name = Products;
@@ -300,6 +323,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		00719CA31A87ED5400BFB3C5 /* cocos2dJava.jar */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.jar;
+			path = cocos2dJava.jar;
+			remoteRef = 00719CA21A87ED5400BFB3C5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B737894B180761A90076A88C /* libcocos2d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -372,7 +402,10 @@
 			files = (
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
+				00719C9D1A87ED5400BFB3C5 /* Seal.m in Sources */,
+				00719CA61A87ED6500BFB3C5 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				00719CA91A87F86B00BFB3C5 /* Gameplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
