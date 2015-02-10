@@ -969,7 +969,7 @@
 		<key>animation/58.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{848, 386}, {75, 75}}</string>
+			<string>{{925, 386}, {75, 75}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -1034,7 +1034,7 @@
 		<key>animation/62.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{925, 386}, {75, 75}}</string>
+			<string>{{848, 386}, {75, 75}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
